@@ -1,0 +1,95 @@
+h1{
+    font-size: 40px;    
+    font-family:Brush script MT;
+    color:red ;
+}
+body{   
+    background-image: url(https://i.pinimg.com/originals/e5/33/74/e53374ebcbc4bc12b89e0bd62f172a0d.jpg);
+    
+}
+ul li{    
+    color:red;
+    padding: 10px;
+    display: inline;
+    list-style-type:none;
+}
+
+nav:hover{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+0% { background-color: red;  color:rgb(119, 111, 128)  }
+25% { background-color: rgb(119, 111, 128) ;  color:orangered }
+50% { background-color: orangered;  color:orange }
+75% { background-color: orange;  color: red }
+100% { background-color: red;  color:rgb(119, 111, 128) }
+}
+
+header{
+    text-align: center;
+    position:fixed;
+    z-index:999;
+    left:0%;
+    right: 0%;
+    top:0;
+    overflow:hidden; 
+    border:12px;
+    background-color: black;
+    border-style: dashed;
+    border-color: brown;
+}
+
+#apr{
+    background-color: rgb(255, 255, 255,0.4);
+    margin:280px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:red;
+}
+
+footer{
+    font-size: 30px;
+    color:brown;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#so{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+#svr{
+    margin: 280px;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(245, 226, 176, 0.959);
+    font-size:30px;
+}
+
+#jj{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    text-align: left;
+}
+
+h3{
+    font-family:"Times New Roman",Helvetica;
+    text-align: left;
+    color:grey;
+    font-size:23px;
+}
+
